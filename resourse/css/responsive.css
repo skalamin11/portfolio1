@@ -1,0 +1,461 @@
+/*********EXTRA LARGE DEVICE**********/
+
+@media all and (max-width: 1350px){
+	.row {
+		width: 110rem;
+	}
+	.services-section .col {
+		width: 25.7%;
+	}
+	.work-section .span_1_of_5 {
+		height: 15rem;
+	}
+	.clients-section .slide {
+		width: 28.9rem;
+		padding: 2rem;
+	}
+	.clients-section .photo {
+		height: 13rem;
+		width: 13rem;
+	}
+	.clients-section .little-description {
+		font-size: 1.5rem;
+		margin-top: 10rem;
+	}
+	.clients-section a, .clients-section .title{
+		margin-left: 9rem;
+	}
+	.blog-section .content {
+		padding: 1.5rem;
+	}
+	.blog-section .blog {
+		height: 53rem;
+		width: 35rem;
+	}
+}
+
+/*********** LARGE DEVICE*************/
+
+@media screen and (max-width: 1200px){
+	.row {
+		width: 95rem;
+	}
+	header {
+		height: 62rem;
+	}
+	.home {
+		position: absolute;
+		left: 35%;
+	}
+	section{
+		padding: 7rem 0;
+	}
+	h3 {
+		font-size: 6rem;
+		margin-bottom: 5rem;
+	}
+	.services-section .col {
+		padding: 1.5rem;
+	}
+	.content > .col:first-child {
+		width: 30%;
+	}
+		.content .image {
+		width: 23rem;
+		height: 33rem;
+	}
+		.content img {
+		width: 23rem;
+		height: 33rem;
+	}
+	.little-description {
+		font-size: 1.5rem;
+		line-height: 2.3rem;
+		margin: 1.5rem 0;
+	}
+	.detials th {
+		width: 11rem;
+	}
+	.services-section .col {
+		width: 28%;
+		height: 27rem;
+	}
+	.work-section .span_1_of_5 {
+		width: 23.9%;
+		margin: .5%;
+	}
+	.clients-section .slide {
+		width: 28rem;
+		padding: 1rem;
+	}
+	.clients-section .little-description {
+	margin-top: 13rem;
+	height: 12rem;
+}
+	.blog-section .blog {
+		height: 50rem;
+		width: 30rem;
+	}
+	.blog .little-description {
+		font-size: 1.5rem;
+		line-height: 2.2rem;
+		margin: 2.2rem 0;
+	}
+}
+
+/***********MEDIUM DEVICE************/
+
+@media screen and (max-width: 992px){
+	.row{
+		width:70rem;
+	}
+	.menu{
+		display: none;
+	}
+	.mobile-menu span{
+		display: block;
+	}
+	.sticky  .logo a {
+		margin-top: .7rem;
+		font-size: 3rem;
+		margin-bottom:.4rem;
+	}
+    .sticky .mobile-menu span {
+		font-size: 1.5rem;
+		margin-top: .8rem;
+	}
+	.home {
+		left: 42%;
+	}
+	h1 {
+		font-size: 4rem;
+	}
+	h2 {
+		font-size: 2.1rem;
+		margin-bottom: 2.5rem;
+	}
+	.btn-box {
+		height: 4rem;
+		width: 14rem;
+		margin-top: 3rem;
+	}
+	.btn-box .btn::before, .btn-box .btn::after {
+		width: 14rem;
+		height: 4rem;
+	}
+	.btn-box .btn::after {
+		transform: rotateX(90deg) translateZ(2rem);
+	}
+	.btn-box .btn::before {
+		transform: rotate(0deg) translateZ(2rem);
+	}
+	.btn-box .btn {
+		font-size: 1.4rem;
+	}
+	h3 {
+		font-size: 5rem;
+		margin-bottom: 4rem;
+	}
+	.content > .col:first-child {
+		width: 33%;
+	}
+	.content .image {
+		width: 19rem;
+		height: 27rem;
+		border:.5rem solid #c9a04f;
+		margin-top:9rem;
+	}
+	.content img {
+		width: 19rem;
+		height: 27rem;
+	}
+	.content > .col:last-child {
+		width: 61.1%;
+		float: right;
+		margin-right: .5rem;
+	}
+	.content .my-cv h1 {
+		font-size: 4rem;
+	}
+	h4 {
+		font-size: 1.50rem;
+		line-height: 3rem;
+	}
+	.little-description {
+		font-size: 1.3rem;
+		line-height: 2.1rem;
+	}
+	.detials .span_1_of_2 {
+		width: 100%;
+		margin: 0;
+	}
+	.services-section .col {
+		width: 43.48%;
+		height: 23rem;
+	}
+	.work-section .span_1_of_5 {
+		height: 12rem;
+	}
+	.work-section img {
+		height: 12rem;
+		width: 100%;
+	}
+	.clients-section .slide {
+		width: 27.7rem;
+		height: 31rem;
+		padding: 3rem;
+	}
+	.blog-section .blog {
+		width: 33.5rem;
+	}
+	.contact-section h1 {
+		margin-top: 0;
+	}
+}
+
+/*********** SMALL DEVICE *************/
+
+@media screen and (max-width: 768px){
+	.row {
+		width: 50rem;
+	}
+	header {
+		height: 53rem;
+	}
+	.home p {
+		width: 35rem;
+		font-size: 1.5rem;
+		line-height: 2.2rem;
+		margin-left: 0
+	}
+	.content .image {
+		margin-top: 0rem;
+	}
+	.content > .col:first-child {
+		width: 100%;
+		margin-bottom: 5rem;
+	}
+	.content > .col:last-child {
+		width: 100%;
+		float: none;
+		text-align: center;
+	}
+	.my-cv .little-description {
+		margin: 1.5rem;
+	}
+	.detials .span_1_of_2 {
+		width: 95%;
+		margin: 0 2.5%;
+	}
+	.my-cv .btn-box {
+		margin-left: 1.5rem;
+		text-align: left;
+	}
+	.skills .span_1_of_2 {
+		width: 95%;
+	}
+	.services-section i.fas, .services-section i.fab {
+		font-size: 2.5rem;
+		margin: .5rem auto;
+	}
+	.services-section h4 {
+		font-size: 1.6rem;
+	}
+	.little-description {
+		margin: 1.5rem .5rem;
+	}
+	.services-section .col {
+		width: 41.65%;
+	}
+	.work-section .button {
+		width: 45rem;
+	}
+	.work-section ul li {
+		display: inline-block;
+		padding: 1.051rem;
+		font-size: 1.5rem;
+	}
+	.work-section .span_1_of_5 {
+		width: 47%;
+		margin: 1.5%;
+	}
+	.work-section .col:first-child {
+		margin-left: 1.5%;
+	}
+	.clients-section .slide {
+		width: 19.7rem;
+		height: 27rem;
+		padding: 2rem;
+	}
+	.clients-section .photo {
+		height: 10rem;
+		width: 10rem;
+	}
+	.clients-section img {
+		height: 10rem;
+	}
+	.clients-section .little-description {
+		font-size: 1.3rem;
+		margin-top: 8rem;
+	}
+	.clients-section h4 {
+		font-size: 1.4rem;
+		line-height: 2rem;
+	}
+	.clients-section a, .clients-section .title {
+		margin-left: 1rem;
+		display:block; ;
+	}
+	.clients-section .title {
+		font-size: 1rem;
+	}
+	.blog-section .blog {
+		width: 23.7rem;
+		height:46rem;
+	}
+	.blog-section h4 {
+		font-size: 1.6rem;
+		line-height: 2.5rem;
+		height: 6rem;
+	}
+	.blog-section .blog-img {
+		height: 16.2rem;
+	}
+	.blog .little-description {
+		font-size: 1.2rem;
+		line-height: 2rem;
+	}
+	.contact-section .span_1_of_2 {
+		width: 92%;
+		margin: 0 2%;
+	}
+	.contact-section h1 {
+		margin-bottom: 1.5rem;
+		font-size: 3rem;
+	}
+	.social {
+		margin:3rem 0;
+	}
+}
+
+/************ EXTRA SMALL DEVICE ************/
+
+@media screen and (max-width:576px){
+	.row {
+		width: 42rem;
+	}
+	.home {
+		left: 50%;
+		text-align: center;
+	}
+	.home p {
+		text-align: center;
+	}
+	.btn-box {
+		margin-top: 2rem;
+		margin-left: 4rem;
+	}
+	.services-section .col {
+		width: 40.2%;
+	}
+	.services-section .col {
+		width: 90%;
+		height: 17rem;
+	}
+	.work-section ul li {
+		padding: 1.44rem;
+		font-size: 1.2rem;
+	}
+	.work-section .button {
+		width: 100%;
+	}
+	.clients-section .slide {
+		width: 90%;
+		height: 22rem;
+	}
+	.clients-section .little-description {
+		height: 9rem;
+	}
+	.clients-section a, .clients-section .title {
+		margin-left: 21rem;
+	}
+	.blog-section .blog {
+		width: 41.7rem;
+	}
+	.message-area .btn-box {
+		margin-left: 0rem; 
+	}
+	footer span {
+		font-size: 1.1rem;
+		line-height: 2rem;
+	}
+	.contact-section .span_1_of_2 {
+		width: 96%;
+	}
+	.message-area input, textarea {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 480px){
+	.row{
+		width: 32rem;
+	}
+	html {
+	font-size: 60%;
+	}
+	section {
+		padding: 4rem 0;
+	}
+	header .logo a {
+		font-size: 2.5rem;
+	}
+	.mobile-menu span {
+	font-size: 1.5rem;
+	margin-top: 1rem;}
+	h3 {
+		text-shadow: -0.9rem -1.3rem 0 #cccccc1c;
+	}
+	header {
+		height: 43rem;
+	}
+	.detials tr {
+		line-height: 2.5rem;
+		font-size: 1.5rem;
+	}
+	.my-cv .little-description {
+		margin: 1rem;
+	}
+	.my-cv .btn-box {
+		margin-left: 1rem;
+	}
+	.services-section .col {
+		height: 20rem;
+		width:88%;
+		margin: 2% 1%;
+	}
+	.button li{
+		width:41%;
+		text-align: center;
+		font-style: 1.5rem;
+	}
+	.button li:first-child{
+		width:91%;
+	}
+	.clients-section .slide {
+		width: 86.5%;
+		height: 24rem;
+	}
+	.clients-section a, .clients-section .title {
+		margin-left: 11rem;
+	}
+	.work-section .span_1_of_5 {
+		width: 46.9%;
+	}
+	.work-section .projects {
+		margin-top: 2rem;
+	}
+	.blog-section .blog {
+		width: 31.7rem;
+	}
+}
